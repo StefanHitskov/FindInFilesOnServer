@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+}
+
+.container{
+    height: 100%;
+    /*width: 700px;*/
+    /*margin: 0 auto;*/
+}
+
+div.list-item {
+    margin-left: 30px;
+}
+
+div.list-item p:hover {
+    background-color: wheat;
+    cursor: pointer;
+}
+
+/*.container > div {*/
+    /*height: 100%;*/
+    /*float: left;*/
+/*}*/
+
+.container .window {
+    width: 30%;
+    overflow: auto;
+    border-right: 2px solid;
+    box-shadow: 0 0 15px 0 inset;
+    /* padding: 5px; */
+    height: 100%;
+    position: fixed;
+}
+
+.container .info {
+    width: 100%;
+    padding: 10px 10px 10px 31%;
+}
